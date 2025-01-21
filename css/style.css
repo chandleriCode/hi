@@ -4,20 +4,20 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #000000;
+    background-color: #f4f4f4;
     color: #333;
 }
 
 /* Header Styles */
 header {
-    background: #ffffff;
-    color: #733697;
+    background: #333;
+    color: #fff;
     padding: 10px 20px;
     text-align: center;
 }
 
 header nav a {
-    color: #ff0077;
+    color: #fff;
     margin: 0 10px;
     text-decoration: none;
 }
@@ -30,7 +30,7 @@ header nav a:hover {
 footer {
     text-align: center;
     padding: 10px;
-    background: #05eb9e;
-    color: #ff0000;
+    background: #333;
+    color: #fff;
     margin-top: 20px;
 }
