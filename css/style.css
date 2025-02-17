@@ -1,12 +1,16 @@
 /* Base Styles */
-body {
-    font-family: Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+ body {
+    font-family: "Kanit", serif;
+    font-weight: 600;
+    font-style: normal;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
-}
+    background-color: #ffffff;
+    color: #000000;
+ }
 
 /* Header Styles */
 header {
@@ -25,7 +29,7 @@ header nav a {
 header nav a:hover {
     text-decoration: underline;
 }
-
+.balls:active {color:rgb(255, 0, 0)}
 /* Footer Styles */
 footer {
     text-align: center;
@@ -33,4 +37,8 @@ footer {
     background: #333;
     color: #fff;
     margin-top: 20px;
-}
+    font-family: "Noto Sans JP", serif;}
+
+ 
+       
+      
